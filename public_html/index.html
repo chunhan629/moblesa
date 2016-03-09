@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>  
+        <script src="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.js"></script>
+	<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jquerymobile/1.4.3/jquery.mobile.min.css" />
+    
+<style>
+        .ui-footer {
+            position: absolute !important;
+            bottom: 0;
+            width: 100%;
+        }
+        
+        p {
+            font-size: 13px;
+        }
+        h4 {
+            margin: 0;
+            background: darkcyan;
+            color: white;
+            text-align: center;
+        }
+        img {
+            padding: 10px;  //a space between image and text
+        }
+</style>
+
+</head>
+
+    <body>
+        <section id="home" data-role="page" data-theme='b'> 
+            
+            <div data-role="hearder">
+                <h3>Ada's Lovely</h3>
+            </div>
+            
+            <div class='ui-content'>
+                <ul data-role='listview'> 
+                    <li data-icon='user'><a href="#who"> Who is Ada Loveles </a></li>
+                    <li data-icon='gear'><a href="#work"> Ada's work </a> </li>
+                    <li data-icon='cloud'><a href="#lagcy"> Ada's Legacy </a></li>
+                </ul>
+                <center>
+                    <img src="Image/adahome.png" style="width: 54%">
+                </center>
+            </div>
+            
+            <div data-role='footer'>
+                <h3>By jeff chang</h3>
+            </div>
+            
+        </section>
+        
+        <section id="who" data-role="page">
+               
+            <div data-role="hearder">
+                <div data-role='navbar'>
+                    <ul>
+                        <li><a href='#home' class='ui-btn ui-btn-icon-top ui-icon-homr'>Home</a></li>
+                        <li><a href='#who' class='ui-btn ui-btn-icon-top ui-icon-user ui-btn-active ui-state-persist'>Who</a></li>
+                        <li><a href='#work' class='ui-btn ui-btn-icon-top ui-icon-gear'>Work</a></li>
+                        <li><a href='#lagcy' class='ui-btn ui-btn-icon-top ui-icon-cloud'>Lagcy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class='ui-content'>
+                <h4> Who is Ada Loveles </h4>
+                <!--two section one for the text and one for the pic-->
+                <div class='ui-grid-a'>
+                    <div class='ui-block-a'>
+                              <p>
+                              English mathematician known for her work on Charles Babbage's computer call the Analytical Engine 
+                              </p><hr>
+                              <p>
+                              Her notes on the Engine include the first the first algorithrm intended to be carried out by a machine 
+                              </p><hr>
+                              <p>
+                              Because of this, she is often described as the world's first computer programmer 
+                              </p>
+                    </div>
+                    <div class='ui-block-b'> 
+                        <img src="Image/adaportrait.png" style="width: 50%">
+                    </div>
+                </div>
+            </div>
+            
+            <div data-role='footer'>
+                <h3>By jeff chang</h3>
+            </div>
+            
+        </section>
+        
+         <section id="work" data-role="page">
+          <div data-role="hearder">
+                <div data-role='navbar'>
+                    <ul>
+                        <li><a href='#home' class='ui-btn ui-btn-icon-top ui-icon-homr'>Home</a></li>
+                        <li><a href='#who' class='ui-btn ui-btn-icon-top ui-icon-user'>Who</a></li>
+                        <li><a href='#work' class='ui-btn ui-btn-icon-top ui-icon-gear ui-btn-active ui-state-persist'>Work</a></li>
+                        <li><a href='#lagcy' class='ui-btn ui-btn-icon-top ui-icon-cloud'>Lagcy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class='ui-content'>
+                <h4> Ada's work </h4>
+                 <!--two section one for the text and one for the pic-->
+                <div class='ui-grid-a'>
+                    <div class='ui-block-a'>
+                              <p>
+                              With Babbage's help, Ada spent a year traslating his seminar about the Analyrical Engine
+                              </p><hr>
+                              <p>
+                              Her detailed work was republished almost 100 years after her death in 1953
+                              </p><hr>
+                              <p>
+                              When Babbge's engine was recognized as the world's first computer, her notes because the first computer program
+                              </p>
+                    </div>
+                    <div class='ui-block-b'> 
+                        <img src="Image/adacode.png" >
+                    </div>
+                </div>
+            </div>
+            
+            <div data-role='footer'>
+                <h3>By jeff chang</h3>
+            </div>
+            
+        </section>
+        
+         <section id="lagcy" data-role="page">
+                <div data-role="hearder">
+                <div data-role='navbar'>
+                    <ul>
+                        <li><a href='#home' class='ui-btn ui-btn-icon-top ui-icon-homr'>Home</a></li>
+                        <li><a href='#who' class='ui-btn ui-btn-icon-top ui-icon-user'>Who</a></li>
+                        <li><a href='#work' class='ui-btn ui-btn-icon-top ui-icon-gear'>Work</a></li>
+                        <li><a href='#lagcy' class='ui-btn ui-btn-icon-top ui-icon-cloud ui-btn-active ui-state-persist'>Lagcy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class='ui-content'>
+                <h4> Ada's Lagcy </h4>
+                <!--two section one for the text and one for the pic-->
+                <div class='ui-grid-a'>
+                    <div class='ui-block-a'>
+                              <p>
+                             A plaque has been installed at The Ada Lovelace House. Which is located in Notionghamshire England near where she lived
+                              </p><hr>
+                              <p>
+                            Ada  lovelace day is an annual event celebrate in mid-October whose goal is to "..raise the profile of woman in sciece , technology , enginering , and math"
+                              </p><hr>
+                              <p>
+                             On the 197th anniversary of her birth , Google dedicated its Google Doodle to her
+                              </p>
+                    </div>
+                    <div class='ui-block-b'> 
+                        <img src="Image/adaplaque.png"  style="width: 88%" >
+                    </div>
+            </div>
+            
+            <div data-role='footer'>
+                <h3>By jeff chang</h3>
+            </div>
+            
+        </section>
+        
+    </body>
+
+</html>
